@@ -224,6 +224,28 @@ img {
     flex-shrink: 0;
     gap: 24px;
 }
+
+.feature-icons {
+    width: 264px;
+    height: 112px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    background: var(--brand-color-cloud);
+}
+
+.astronaut-icon {
+    width: 64px;
+    height: 64px;
+    background: var(--brand-color-cloud);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
 .section-box {
     display: flex;
     flex-direction: column;
@@ -295,6 +317,45 @@ img {
     border-radius: 0px 0px 4px 4px;
     width: calc(100%-72px) / 4;
 }
+
+.trailing-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.ellipse-icon {
+    width: 40px;
+    height: 40px;
+}
+
+/*section 4 styles*/
+
+.customer-icons-container {
+    width: 1128px;
+    height: 200px;
+    flex-shrink: 0;
+}
+.section-four-header {
+    color: var(--brand-color-navvy-blue);
+    text-align: center;
+}
+.customer-icons {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+.client-icon {
+    width: 104px;
+    height: 56px;
+    flex-shrink: 0;
+    
+}
+.icon-container {
+    width: 168px;
+    height: 88px;
+}
+/*footer styles*/
 
 .footer {
     background-color: var(--brand-color-navvy-blue);
