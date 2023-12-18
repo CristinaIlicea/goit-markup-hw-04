@@ -132,7 +132,7 @@ img {
     display: flex;
     flex-flow: column wrap;
     padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0. 7), rgba(46, 47, 66, 0.7)), url('./images/people-office.jpg');
+    background-image: linear-gradient(rgba(46,47,66,0.7), rgba(46,47,66,0.7)), url('./images/people-office.jpg');
     max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
@@ -245,27 +245,27 @@ img {
     margin-bottom: 8px;
 }
 
-.antenna-icon svg {
+.antenna-icon {
     width: 64px;
     height: 64px;
     align-items: center;
     justify-content: center;
 }
-.clock-icon svg {
-    width: 64px;
-    height: 64px;
-    align-items: center;
-    justify-content: center;
-}
-
-.diagram-icon svg {
+.clock-icon {
     width: 64px;
     height: 64px;
     align-items: center;
     justify-content: center;
 }
 
-.astronaut-icon svg {
+.diagram-icon {
+    width: 64px;
+    height: 64px;
+    align-items: center;
+    justify-content: center;
+}
+
+.astronaut-icon {
     width: 64px;
     height: 64px;
     align-items: center;
@@ -404,7 +404,7 @@ img {
     fill: currentColor;
 }
 .icon-container {
-    width: 168px;
+    width: calc((100%-120px)/ 6);
     height: 88px;
     border-radius: 4px;
     border: 1px solid var(--brand-color-slate);
@@ -412,7 +412,6 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: calc((100%-120px)/ 6);
 }
 .icon-link {
     width: 100%;
@@ -424,7 +423,10 @@ img {
     justify-content: center;
     color: #8e8f99;
 }
-.icon-link:hover, .icon-link:focus {
+.icon-link:hover {
+    border-color: var(--brand-color-ocean);
+}
+.icon-link:focus {
     border-color: var(--brand-color-ocean);
 }
 
