@@ -15,6 +15,12 @@ body {
     font-weight: 400;
     line-height: 1.5;
 }
+
+h2 { 
+margin: 0;}
+p {
+margin: 0;}
+
 img {
     display: block;
 }
@@ -479,6 +485,7 @@ img {
     flex-shrink: 0;
     justify-content: center;
 }
+
 .social-text {
     color: #fff;
     font-weight: 500px;
