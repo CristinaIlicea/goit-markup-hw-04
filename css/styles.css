@@ -97,7 +97,7 @@ img {
 .container {
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0;
 }
 .header-container {
     display: flex;
@@ -139,10 +139,14 @@ img {
     flex-flow: column wrap;
     padding: 188px 0;
     background-image: linear-gradient(rgba(46,47,66,0.7), rgba(46,47,66,0.7)), url('./images/people-office.jpg');
-    max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    flex-shrink: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 120px 0;
+    display: flex;
 }
 .hero-container {
     display: flex;
@@ -298,6 +302,7 @@ img {
     text-transform: capitalize;
     color: var(--brand-color-slate);
     margin-bottom: 72px;
+    margin-top: 72px;
 }
 .section-three-box {
     display: flex;
@@ -389,6 +394,12 @@ img {
     justify-content: center;
     padding-top: 120px;
     padding-bottom: 120px;
+    flex-shrink: 0;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .section-five-header {
@@ -434,10 +445,12 @@ img {
 
 .footer {
     background-color: var(--brand-color-navvy-blue);
-    flex-shrink: 0;
-    display: inline-flex;
     align-items: flex-start;
-    padding: 100px 0;
+    flex-shrink: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 120px 0;
+    display: flex;
 }
 .logo-container {
     margin: 0 auto;
@@ -450,13 +463,13 @@ img {
     width: 264px;
     height: 112px;
     flex-shrink: 0;
-    align-items: center;
+    align-items: flex-start;
     margin-right: 120px;
 }
 .footnote-logo {
     display: flex;
     height: 24px;
-    align-items: center;
+    align-items: flex-start;
     flex-shrink: 0;
     margin-bottom: 16px;
 }
@@ -468,14 +481,15 @@ img {
     font-weight: 400;
     max-width: 264px;
     height: 72px;
-    margin-top: 16px;
-    margin-left: 75px;
 }
 .social-container {
     width: 208px;
     height: 80px;
     flex-shrink: 0;
-    justify-content: center;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .social-text {
@@ -485,11 +499,14 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
+    text-align: left;
 }
 .social-links {
     display: flex;
     align-items: flex-start;
+    flex-shrink: 0;
     gap: 16px;
+    justify-content: center;
 }
 .footer-ellipse {
     width: 40px;
