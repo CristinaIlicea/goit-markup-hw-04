@@ -295,13 +295,19 @@ img {
     padding-bottom: 120px;
 }
 .section-three-header {
-    margin-bottom: 8px;
-    align-items: center;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--brand-color-slate);
     margin-bottom: 72px;
 }
 .section-three-box {
     display: flex;
     gap: 24px;
+    padding: 0;
+    justify-content: space-between;
 }
 .section-three-item {
     width: calc((100%-48px)/3);
@@ -346,7 +352,7 @@ img {
 .list-item {
     background-color: #ffffff;
     border-radius: 0px 0px 4px 4px;
-    width: calc(100%-72px) / 4;
+    flex-basis: calc(100%-72px) / 4;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
 }
 
@@ -355,6 +361,8 @@ img {
     justify-content: center;
     align-items: center;
     gap: 24px;
+    padding: 0;
+    margin: 16px;
 }
 .ellipse {
     width: 40px;
@@ -386,10 +394,7 @@ img {
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.customer-icons-container {
-    height: 200px;
-    flex-shrink: 0;
-}
+
 .section-five-header {
     color: var(--brand-color-navvy-blue);
     text-align: center;
@@ -397,10 +402,8 @@ img {
 }
 .customer-icons {
     display: flex;
-    align-items: flex-start;
     gap: 24px;
-    height: 88px;
-    padding: 0;
+    list-style: none;
 }
 .client-icon {
     width: 104px;
