@@ -425,9 +425,11 @@ img {
 }
 .icon-link:hover {
     border-color: var(--brand-color-ocean);
+    color: var(--brand-color-ocean);
 }
 .icon-link:focus {
     border-color: var(--brand-color-ocean);
+    color: var(--brand-color-ocean);
 }
 
 /*footer styles*/
