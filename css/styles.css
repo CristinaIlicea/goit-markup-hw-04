@@ -86,7 +86,7 @@ img {
     display: flex;
     background: #fff;
     border-bottom: 1px solid --brand-color-cornflower;
-    box-shadow: cu valorile 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); 
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); 
 }
 .container {
     width: 1158px;
@@ -132,7 +132,7 @@ img {
     display: flex;
     flex-flow: column wrap;
     padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0. 7), rgba(46, 47, 66, 0.7)), url('images/people-office.jpg');
+    background-image: linear-gradient(rgba(46, 47, 66, 0. 7), rgba(46, 47, 66, 0.7)), url('./images/people-office.jpg');
     max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
@@ -245,27 +245,27 @@ img {
     margin-bottom: 8px;
 }
 
-.antenna-icon {
+.antenna-icon svg {
     width: 64px;
     height: 64px;
     align-items: center;
     justify-content: center;
 }
-.clock-icon {
-    width: 64px;
-    height: 64px;
-    align-items: center;
-    justify-content: center;
-}
-
-.diagram-icon {
+.clock-icon svg {
     width: 64px;
     height: 64px;
     align-items: center;
     justify-content: center;
 }
 
-.astronaut-icon {
+.diagram-icon svg {
+    width: 64px;
+    height: 64px;
+    align-items: center;
+    justify-content: center;
+}
+
+.astronaut-icon svg {
     width: 64px;
     height: 64px;
     align-items: center;
@@ -373,8 +373,8 @@ img {
 .social-media-link:hover, .social-media-link:focus {
     background-color: var(--brand-color-ocean);
 }
-/*section 4 styles*/
-.section-four {
+/*section 5 styles*/
+.section-five {
     display: inline-flex;
     justify-content: center;
     padding-top: 120px;
@@ -385,7 +385,7 @@ img {
     height: 200px;
     flex-shrink: 0;
 }
-.section-four-header {
+.section-five-header {
     color: var(--brand-color-navvy-blue);
     text-align: center;
     margin-bottom: 72px;
