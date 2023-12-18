@@ -444,15 +444,15 @@ img {
 }
 .footnote-box {
     display: flex;
+    flex-direction: column;;
     width: 264px;
     height: 112px;
     flex-shrink: 0;
-    justify-content: flex-start;
-    align-items: flex-end;
+    align-items: center;
     margin-right: 120px;
 }
 .footnote-logo {
-    display: inline-block;
+    display: flex;
     height: 24px;
     align-items: center;
     flex-shrink: 0;
@@ -467,6 +467,7 @@ img {
     max-width: 264px;
     height: 72px;
     margin-top: 16px;
+    margin-left: 75px;
 }
 .social-container {
     width: 208px;
