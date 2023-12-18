@@ -400,6 +400,7 @@ img {
     align-items: flex-start;
     gap: 24px;
     height: 88px;
+    padding: 0;
 }
 .client-icon {
     width: 104px;
