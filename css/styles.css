@@ -387,7 +387,6 @@ img {
     padding-bottom: 120px;
 }
 .customer-icons-container {
-    width: 1128px;
     height: 200px;
     flex-shrink: 0;
 }
@@ -411,7 +410,6 @@ img {
 .icon-container {
     width: calc((100% - 120px) / 6);
     height: 88px;
-
 }
 .icon-link {
     width: 100%;
